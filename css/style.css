@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700');
+body{
+	font-size: 14px;
+	color: #212529;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+
+#intro{
+	background-color: #EBEDFA;
+}
+
+#about{
+	background: url("../img/christopher-gower-vjMgqUkS8q8-unsplash.jpg") rgba(156,144,236,0.88) ;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: multiply;
+	text-align: center;
+	
+	
+}
+.img-fluid{
+	margin-left: 30%;
+	
+}
+#intro h1{
+	font-size: 60px;
+	color: #9C90EC;
+	font-weight: 800;
+}
+#intro h3{
+	color: #F3BB08;
+	font-size: 25px;
+	font-weight: 400;
+}
+#intro p{
+	font-size: 15px;
+	padding-top: 5%;
+}
+.fa-address-card{
+	font-size: 50px;
+	padding: 3%;
+	color: #FFFFFF;
+}
+.pp{
+	font-size: 15px;
+	text-align: center;
+}
+#about p{
+	font-size: 15px;
+	text-align: left;
+}
+#about h1{
+	color: aliceblue;
+	font-weight: 700;
+}
+.cajasobremi{
+	background-color: rgba(229,229,229,0.90);
+	border-radius: 15px;
+	padding: 10%;
+	
+}
+.cajasobremi1{
+	background-color: rgba(229,229,229,0.90);
+	border-radius: 15px;
+	padding: 5%;
+	
+}
+#about h3{
+	padding: 5%;
+	font-size: 40px;
+	color: #F3BB08 ;
+}
+.icono{
+	font-size: 30px;
+	text-align: center;
+	color: #F3BB08;
+}
+#services{
+	background-color: #5CC1CF;
+}
+.cajaform{
+	background-color: #FFFFFF;
+	border-radius:3%;
+	padding: 5%;
+}
+.port{
+	align-content: center;
+	padding-bottom: 5%;
+}
+
+body {
+background: #FFFFFF;
+}
+
+.brand-carousel {
+background: #FFFFFF;
+margin-top: 6%;
+}
+.owl-dots {
+text-align: center;
+margin-top: 4%;
+}
+.owl-dot {
+display: inline-block;
+height: 15px !important;
+width: 15px !important;
+background-color: #878787 !important;
+opacity: 0.8;
+border-radius: 50%;
+margin: 0 5px;
+}
+.owl-dot.active {
+background-color: #000 !important;
+}
+.single-logo{
+	width: 100px;
+}
+#clientes h1{
+	text-align: center;
+	padding-bottom: 0px;
+	margin-bottom: 0;
+	color: #DF8BAA;
+	font-weight: 700;
+	font-size: 50px;
+}
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+	margin-bottom: 3%;
+}
+
+/* Full-width inputs */
+input.text {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #DF8BAA;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  width: 100%;
+	border-radius: 10px;
+}
+.cambios{
+	align-content: center
+}
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: right;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 20%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+#contact h1{
+	padding-bottom: 3%;
+	color: #FFFFFF;
+	font-weight: 700;
+}
+#contact h4{
+	padding: 5%;
+	background-color: #F3BB08;
+	border-radius: 20px;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 10%;
+}
+#contact h5{
+	padding: 5%;
+	background-color: #DF8BAA;
+	border-radius: 20px;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 10%;
+}
+
+#portafolio h1{
+	text-align: center;
+	padding: 4%;
+	color: #A59AE9;
+}
+footer{
+	background-color: #DF8BAA;
+	padding: 3%;
+	color: aliceblue;
+}
+#contact{
+	background-color:  #5CC1CF;
+}
+.icon{
+	font-size: 50px;
+	text-align: right;
+}
